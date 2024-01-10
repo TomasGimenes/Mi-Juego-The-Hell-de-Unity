@@ -1,0 +1,362 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'es' Physical Memory: 3920 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker28
+-projectPath
+C:/Users/Administrator/Documents/Mi VideoJuego/The Hell
+-logFile
+Logs/AssetImportWorker28.log
+-srvPort
+55064
+Successfully changed project path to: C:/Users/Administrator/Documents/Mi VideoJuego/The Hell
+C:/Users/Administrator/Documents/Mi VideoJuego/The Hell
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [956] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 3708467083 [EditorId] 3708467083 [Version] 1048832 [Id] WindowsEditor(7,KernelOS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [956] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 3708467083 [EditorId] 3708467083 [Version] 1048832 [Id] WindowsEditor(7,KernelOS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 30.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/Documents/Mi VideoJuego/The Hell/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics (ID=0x5a85)
+    Vendor:   Intel
+    VRAM:     1960 MB
+    Driver:   23.20.16.4973
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019638 seconds.
+- Loaded All Assemblies, in  1.393 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.557 seconds
+Domain Reload Profiling: 2949ms
+	BeginReloadAssembly (427ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (129ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (202ms)
+	LoadAllAssembliesAndSetupDomain (596ms)
+		LoadAssemblies (421ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (585ms)
+			TypeCache.Refresh (581ms)
+				TypeCache.ScanAssembly (532ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1559ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1287ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (29ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (980ms)
+			ProcessInitializeOnLoadMethodAttributes (222ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Mi VideoJuego\The Hell\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Mi VideoJuego\The Hell\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 117.828 seconds
+Refreshing native plugins compatible for Editor in 250.11 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 73.638 seconds
+Domain Reload Profiling: 191521ms
+	BeginReloadAssembly (4703ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (172ms)
+	RebuildCommonClasses (155ms)
+	RebuildNativeTypeToScriptingClass (51ms)
+	initialDomainReloadingComplete (356ms)
+	LoadAllAssembliesAndSetupDomain (112591ms)
+		LoadAssemblies (71275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37526ms)
+			TypeCache.Refresh (37162ms)
+				TypeCache.ScanAssembly (36807ms)
+			ScanForSourceGeneratedMonoScriptInfo (317ms)
+			ResolveRequiredComponents (47ms)
+	FinalizeReload (73665ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (61091ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (538ms)
+			ProcessInitializeOnLoadAttributes (53021ms)
+			ProcessInitializeOnLoadMethodAttributes (7412ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (8ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 5.62 seconds
+Refreshing native plugins compatible for Editor in 15.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5890 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (423.1 KB). Loaded Objects now: 6357.
+Memory consumption went from 224.8 MB to 224.4 MB.
+Total: 483.019900 ms (FindLiveObjects: 27.653500 ms CreateObjectMapping: 1.539300 ms MarkObjects: 377.945500 ms  DeleteObjects: 75.877200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 203966.527415 seconds.
+  path: Assets/Animations/Caronte
+  artifactKey: Guid(934d4c703b0d2bd46b9adc84fdde73a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Caronte using Guid(934d4c703b0d2bd46b9adc84fdde73a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13235df8d3e753e69b424f970cbb454d') in 0.389702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Sprites/Caronte/CaronteTileMap.png
+  artifactKey: Guid(72313da0371fd1940826e72d91af88c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Caronte/CaronteTileMap.png using Guid(72313da0371fd1940826e72d91af88c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729db3104997fbb00c45cbeaca6d5b9b') in 0.218020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000671 seconds.
+  path: Assets/Animations/Caronte/Caronte.controller
+  artifactKey: Guid(cb535707f40d29a499cd2cd61ad745fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Caronte/Caronte.controller using Guid(cb535707f40d29a499cd2cd61ad745fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c18a762c38089889da51875241a4a6') in 0.041930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 305.952464 seconds.
+  path: Assets/Sprites/Player/Movement/Hands
+  artifactKey: Guid(43962d9379a7b5d499f429b5ab3d7331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Movement/Hands using Guid(43962d9379a7b5d499f429b5ab3d7331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c237d65fa408a31013be673c2c73d03') in 0.002336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066110 seconds.
+  path: Assets/Sprites/Player/Movement/Hands/PlayerFallTileMap.png
+  artifactKey: Guid(ac2de038404abb14daa76528b80c53d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Movement/Hands/PlayerFallTileMap.png using Guid(ac2de038404abb14daa76528b80c53d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff3e0e9838eb7e4256312c7b8c1c2ee') in 0.007888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Sprites/Player/Movement/Hands/PlayerIdleTileMap.png
+  artifactKey: Guid(31640a21c7ad9074a84bb135d1b7ce95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Movement/Hands/PlayerIdleTileMap.png using Guid(31640a21c7ad9074a84bb135d1b7ce95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760c3ec5af1e5f7bd407604ebb8c5785') in 0.017678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprites/Player/Movement/Hands/PlayerJumpTileMap.png
+  artifactKey: Guid(5a99578382b20bc41a926bafd34fe1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Movement/Hands/PlayerJumpTileMap.png using Guid(5a99578382b20bc41a926bafd34fe1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb4b4646abc6f80da1a938d3525b132') in 0.015343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000811 seconds.
+  path: Assets/Sprites/Player/Movement/Hands/PlayerWalkFallTileMap.png
+  artifactKey: Guid(62ef457bbd0d84c41b58ff2fc14678d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Movement/Hands/PlayerWalkFallTileMap.png using Guid(62ef457bbd0d84c41b58ff2fc14678d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5760d9a5903cf67524865acf5b9f7477') in 0.004613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/Sprites/Player/Movement/Hands/PlayerWalkTileMap 1.png
+  artifactKey: Guid(6c741b137a0cf334d91efbbf27b6909b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Movement/Hands/PlayerWalkTileMap 1.png using Guid(6c741b137a0cf334d91efbbf27b6909b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d7d1cd003f397970d5179fc50ec608') in 0.251429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000789 seconds.
+  path: Assets/Sprites/Player/Movement/Hands/PlayerWalkJumpTileMap.png
+  artifactKey: Guid(f611461743004f042b43ed54a1bce973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Movement/Hands/PlayerWalkJumpTileMap.png using Guid(f611461743004f042b43ed54a1bce973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3102b4e7668eaa434ab18f7d8e0e1c80') in 0.069285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 22.369145 seconds.
+  path: Assets/Sprites/Player/Movement/Hands/PlayerIdleTileMap.png
+  artifactKey: Guid(31640a21c7ad9074a84bb135d1b7ce95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player/Movement/Hands/PlayerIdleTileMap.png using Guid(31640a21c7ad9074a84bb135d1b7ce95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae0aef8422fec155e608567fecf45a6') in 0.004966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 41.240042 seconds.
+  path: Assets/Animations/Player
+  artifactKey: Guid(ba199db7929781e4aa25b42ccf34318d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player using Guid(ba199db7929781e4aa25b42ccf34318d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15231db1155f72f48e6de485292992b') in 0.001436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.716792 seconds.
+  path: Assets/Scripts/MenuPrincipal
+  artifactKey: Guid(402ae143294169548985741b5fb9de59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MenuPrincipal using Guid(402ae143294169548985741b5fb9de59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18353afd6c03864a6c522093f110777') in 0.001223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.607632 seconds.
+  path: Assets/Scripts/MenuPrincipal/MenuPrincipal.cs
+  artifactKey: Guid(79ca335a5c2df2f4982663577ea95213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MenuPrincipal/MenuPrincipal.cs using Guid(79ca335a5c2df2f4982663577ea95213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9e22693463f1c5eacf344c1dc8b664') in 0.002134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Mi VideoJuego\The Hell\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Mi VideoJuego\The Hell\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 95.763 seconds
+Refreshing native plugins compatible for Editor in 168.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 957.962 seconds
+Domain Reload Profiling: 1055672ms
+	BeginReloadAssembly (37913ms)
+		ExecutionOrderSort (113ms)
+		DisableScriptedObjects (2721ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (233ms)
+		CreateAndSetChildDomain (30061ms)
+	RebuildCommonClasses (8532ms)
+	RebuildNativeTypeToScriptingClass (1698ms)
+	initialDomainReloadingComplete (8535ms)
+	LoadAllAssembliesAndSetupDomain (40991ms)
+		LoadAssemblies (11545ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28375ms)
+			TypeCache.Refresh (15271ms)
+				TypeCache.ScanAssembly (13252ms)
+			ScanForSourceGeneratedMonoScriptInfo (7959ms)
+			ResolveRequiredComponents (5146ms)
+	FinalizeReload (958004ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (103129ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2636ms)
+			SetLoadedEditorAssemblies (262ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32951ms)
+			ProcessInitializeOnLoadAttributes (66213ms)
+			ProcessInitializeOnLoadMethodAttributes (1034ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (1ms)
+		AwakeInstancesAfterBackupRestoration (151ms)
+Refreshing native plugins compatible for Editor in 389.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5722 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (391.5 KB). Loaded Objects now: 6376.
+Memory consumption went from 194.7 MB to 194.4 MB.
+Total: 176.012300 ms (FindLiveObjects: 20.922100 ms CreateObjectMapping: 40.619000 ms MarkObjects: 101.408300 ms  DeleteObjects: 13.058400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Mi VideoJuego\The Hell\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Mi VideoJuego\The Hell\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 168.264 seconds
+Refreshing native plugins compatible for Editor in 6296.28 ms, found 4 plugins.
